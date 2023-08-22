@@ -1,0 +1,11 @@
+.container{
+    background: black;
+    color: white;
+    font-size: 30px;
+    font-family: poppinsSemiBold;
+    width: 320px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}

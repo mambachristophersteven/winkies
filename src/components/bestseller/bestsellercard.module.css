@@ -1,0 +1,65 @@
+.container{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    position: relative;
+    width: 100%;
+    padding: 12px;   
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.title{
+    font-family: poppinsBold;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.price{
+    font-family: poppinsBold;
+    font-size: 16px;
+}
+
+.description{
+    width: 70%;
+    font-family: poppinsSemiBold;
+    color: rgba(186, 186, 186, 1);
+    font-size: 10px;
+}
+
+.orderLove{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.like > img{
+    position: absolute;
+}
+
+.notLiked{
+    visibility: visible;
+}
+
+.liked{
+    visibility: hidden;
+}
+
+.right{
+    position: absolute;
+    top: -50px;
+    right: -40px;
+}

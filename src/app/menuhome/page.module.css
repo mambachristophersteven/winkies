@@ -1,0 +1,97 @@
+.container{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    gap: 10px;
+    position: relative;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.welcomeMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.username{
+    font-family: poppinsBold;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.tableName{
+    font-family: poppinsBold;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.orderText{
+    font-family: poppinsBold;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.searchContainer{
+    position: relative;
+}
+
+
+
+.bestSellingSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.recommendedSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.sectionIntro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.introHeading{
+    font-family: poppinsBold;
+    font-size: 22px;
+}
+
+.introDesc{
+    font-family: poppinsSemiBold;
+    color: rgba(0, 0, 0, 0.72);
+    font-size: 11px;
+}
+
+.recommendedfoodCardContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}

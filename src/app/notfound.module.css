@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+
+.message{
+    font-family: poppinsBold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.number{
+    font-family: poppinsBold;
+    font-size: 42px;
+    text-align: center;
+}

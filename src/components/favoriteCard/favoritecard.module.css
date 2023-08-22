@@ -1,0 +1,47 @@
+.container{
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.left{
+    position: absolute;
+    top: -40%;
+    left: -5%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: right;
+    align-items: flex-end;
+    gap: 3px;
+}
+
+.name{
+    color: black;
+    font-family: poppinsBold;
+    font-size: 14px;
+}
+
+.price{
+    color: rgba(0, 0, 0, 0.88);
+    font-family: poppinsBold;
+    font-size: 16px;
+}
+
+.desc{
+    color: rgba(186, 186, 186, 1);
+    font-family: poppinsSemiBold;
+    font-size: 10px;
+    width: 60%;
+    text-align: right;
+}

@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    gap: 60px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.heading{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headingText{
+    color: black;
+    font-size: 32px;
+    font-family: poppinsBold;
+}
+
+.confirmNumberBox{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.confirmText{
+    color: rgba(0, 0, 0, 0.72);
+    font-family: poppinsBold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button{
+    margin-top: 50px;
+}

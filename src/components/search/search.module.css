@@ -1,0 +1,23 @@
+.label{
+    font-family: poppinsBold;
+    font-size: 14px;
+}
+
+.input{
+    border: none;
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    font-family: poppinsSemiBold;
+    /* font-weight: bold; */
+    background: rgba(234, 234, 234, 1);
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}

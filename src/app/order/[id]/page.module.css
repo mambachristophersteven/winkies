@@ -1,0 +1,171 @@
+.container{
+    background-image: url(/blackbackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content{
+    background: white;
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    min-height: 80vh;
+    padding: 20px;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MealContainer{
+    position: absolute;
+    top: -12vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.like{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.like > img{
+    position: absolute;
+}
+
+.unliked{
+    visibility: visible;
+}
+
+.liked{
+    visibility: hidden;
+}
+
+.quantityCounter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quantity{
+    font-family: poppinsSemiBold;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+
+.namePrice{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    font-family: poppinsBold;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price{
+    font-family: poppinsSemiBold;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 22px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+}
+
+.descTitle{
+    font-family: poppinsSemiBold;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+}
+
+.descText{
+    color: rgba(0, 0, 0, 0.31);
+    font-family: poppinsSemiBold;
+    font-size: 11px;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.ingredientsTitle{
+    font-family: poppinsSemiBold;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+}
+
+.ingredientsContent{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+}
+
+.ingredient{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -4px 2px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    width: 18%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredientName{
+    font-family: poppinsSemiBold;
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+}
+
+.total{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totalTitle{
+    font-family: poppinsSemiBold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.totalPrice{
+    font-family: poppinsSemiBold;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1);
+}
